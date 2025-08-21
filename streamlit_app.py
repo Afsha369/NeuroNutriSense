@@ -25,7 +25,7 @@ Below is an introductory snapshot related to the project. Click to enlarge and w
 video_path = "assets/intro_video.mp4"
 #thumbnail_path = "assets/intro_video_thumbnail.png" 
 
-with st.expander("▶️ Click to View Introductory Visual", expanded=False):
+with st.expander("▶️ Click to View Introductory Video", expanded=False):
     st.video("assets/intro_video.mp4")
     st.markdown("<div style='text-align:center; font-size:14px; color:gray;'>Playing: Parkinson’s Disease project introduction video</div>", unsafe_allow_html=True)
 

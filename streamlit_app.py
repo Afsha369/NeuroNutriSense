@@ -10,12 +10,12 @@ st.markdown("<h1 style='font-size:38px;'>🧠 Parkinson's Disease: Preclinical v
 # Enhanced Welcome Text with Larger Font
 st.markdown("""
 <div style='font-size:19px; line-height:1.7'>
-Welcome to a <b>comprehensive exploration of Parkinson’s Disease progression</b> based on:<br><br>
+Welcome to a comprehensive exploration of Parkinson’s Disease progression based on:<br><br>
 
 🧪 <b>Preclinical Animal Model Trials</b><br>
 👥 <b>Clinical Patient Dataset Analysis</b><br><br>
 
-This dashboard helps <b>visualize and compare</b> the patterns observed in both <b>experimental and clinical contexts</b>.
+This dashboard helps visualize and compare the patterns observed in both experimental and clinical contexts.
 <br><br>
 Below is an introductory snapshot related to the project. Click to enlarge and watch the full video.
 </div>
@@ -23,7 +23,7 @@ Below is an introductory snapshot related to the project. Click to enlarge and w
 
 # Show clickable thumbnail inside expander
 video_path = "assets/intro_video.mp4"
-thumbnail_path = "assets/intro_video_thumbnail.png"  # Replace with actual image if you haven't yet
+#thumbnail_path = "assets/intro_video_thumbnail.png" 
 
 with st.expander("▶️ Click to View Introductory Visual", expanded=False):
     st.video("assets/intro_video.mp4")
@@ -40,7 +40,7 @@ st.markdown("🧪 <span style='font-size:16px;'>Explore visual results from <b>m
 st.page_link("pages/1_Preclinical_Graphs.py", label="👉 📊 Preclinical Trial Graphs", icon="🔬")
 
 # Clinical
-st.markdown("💊 <span style='font-size:16px;'>Analyze <b>patient data, medication effect</b>, and <b>lifestyle factors</b> from real-world clinical datasets.</span>", unsafe_allow_html=True)
+st.markdown("💊 <span style='font-size:16px;'>Analyze <b>patient data, medication effect, and lifestyle factors</b> from real-world clinical datasets.</span>", unsafe_allow_html=True)
 st.page_link("pages/2_Clinical_EDA.py", label="👉 📈 Clinical EDA Visualizations", icon="📊")
 
 # Comparative
